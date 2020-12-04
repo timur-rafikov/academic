@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+body {
+	font-family: 'Comfortaa', cursive;
+	background: url('images/background2.jpg') center;
+	font-size: 20px;
+	transition: 0.4s;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+
+
+#academic {
+	font-size: 40px;
+	padding-left: 40px;
+}
+
+.inner {
+	width: 1700px;
+}
+
+#navbar {
+	width: 1897px;
+	height: 100px;
+	background: #2e2d2d;
+}
+
+#navbar button {
+	font-size: 20px;
+	text-decoration: none;
+	color: #949494;
+	float: right;
+	margin-top: 15px;
+	margin-right: 50px;
+	padding: 20px;
+	border-radius: 20px;
+	background: #1c1b1b;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#navbar button:hover {
+	background: black;
+}
+
+#navbar button.active {
+	background: black;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 1897px;
+}
+
+.logo {
+	position: absolute;
+	background: url('images/logo.png') no-repeat center/cover;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+}
+
+#main {
+	display: block;
+}
+
+#mainlogo {
+	width: 300px;
+	height: 300px;
+	margin-left: 760px;
+	background: url('images/logo.png') center/cover no-repeat;
+}
+
+#q {
+	width: 1500px;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	background: #363636;
+	padding: 20px;
+	margin: 20px;
+}
+
+#q2 {
+	margin-top: 20px;
+}
+
+#q3 {
+	margin-top: 20px;
+}
+
+#weblogo {
+	border: 3px solid white;
+	border-radius: 200px;
+/*	background: url('images/logoboy.png') center/cover no-repeat; */
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.developer {
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.content {
+	width: 1870px;
+	min-height: 1450px;
+	color: white;
+	padding: 16px;
+}
+
+.tabcontent {
+	display: none;
+	margin-top: 16px;
+    border-top: none;
+}
+
+.sticky + .content {
+	padding-top: 100px;
+}
+
+.programming {
+	width: 1800px;
+	height: 500px;
+}
+
+.progcourses {
+	width: 1800px;
+	height: 660px;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.progimg {
+	position: absolute;
+	border-radius: 20px;
+	height: 150px;
+	width: 150px;
+}
+
+.js {
+	width: 1700px;
+	padding: 20px;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	background: #2e2d2d;
+}
+
+.jslogo {
+	width: 150px;
+	height: 150px;
+	background: url('images/jslogo.png') center/cover no-repeat;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+.node {
+	margin-top: 10px;
+	width: 1700px;
+	padding: 20px;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	background: #2e2d2d;
+}
+
+.nodelogo {
+	width: 150px;
+	height: 150px;
+	background: url('images/nodelogo.png') center/cover no-repeat;
+	border-radius: 20px;
+	margin-right: 20px;
+} 
+
+.py {
+	width: 1700px;
+	margin-top: 10px;
+	background: #2e2d2d;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.pylogo {
+	width: 150px;
+	height: 150px;
+	background: url('images/pythonlogo.png') center/cover no-repeat;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+.cpp {
+	width: 1700px;
+	margin-top: 10px;
+	background: #2e2d2d;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.cpplogo {
+	width: 200px;
+	height: 200px;
+	background: url('images/cpplogo.png') center/cover no-repeat;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+.physics {
+	width: 1800px;
+	height: 500px;
+}
+
+.physcourses {
+	width: 1800px;
+	height: 500px;
+	padding: 20px;
+}
+
+.astro {
+	width: 1700px;
+	margin-top: 10px;
+	background: #2e2d2d;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.astrologo {
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin-right: 20px;
+	background: url('images/astrologo.jpg') center/cover no-repeat;
+}
+
+.theor {
+	width: 1700px;
+	margin-top: 10px;
+	background: #2e2d2d;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.theorlogo {
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin-right: 20px;
+	background: url('images/theorlogo.jpg') center/cover no-repeat;
+}
+
+.yader {
+	width: 1700px;
+	margin-top: 10px;
+	background: #2e2d2d;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.yaderlogo {
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin-right: 20px;
+	background: url('images/yaderlogo.png') center/cover no-repeat;
+}
+
+.math {
+	width: 1800px;
+	height: 500px;
+}
+
+.mathcourses {
+	width: 1800px;
+	height: 500px;
+	padding: 20px;
+}
+
+.prost {
+	width: 1700px;
+	margin-top: 10px;
+	background: #2e2d2d;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.prostlogo {
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin-right: 20px;
+	background: url('images/prostlogo.jpg') center/cover no-repeat;
+}
+
+.vysh {
+	width: 1700px;
+	margin-top: 10px;
+	background: #2e2d2d;
+	border: 1px solid #2e2d2d;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.vyshlogo {
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin-right: 20px;
+	background: url('images/vyshlogo.jpg') center/cover no-repeat;
+}
+
+.accordion {
+	background: #383838;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 0;
+	font-family: 'Comfortaa', cursive;
+}
+
+.active, .accordion:hover {
+    background-color: #292929;
+}
+
+.panel {
+	display: flex;
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	max-height: 0;
+    transition: max-height 0.2s ease-out;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.links {
+	display: flex;
+	width: 1897px;
+	height: 100px;
+	padding-left: 100px;
+	padding-top: 40px;
+	background: #242323;
+}
